@@ -1,0 +1,25 @@
+{
+  "name": "memory-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for Claude Code memory with Obsidian vault and vector search",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "@lancedb/lancedb": "^0.15.0",
+    "gray-matter": "^4.0.3",
+    "chokidar": "^4.0.3",
+    "glob": "^10.3.10",
+    "zod": "^3.23.8",
+    "zod-to-json-schema": "^3.23.5",
+    "apache-arrow": "^18.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  }
+}
